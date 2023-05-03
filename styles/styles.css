@@ -763,13 +763,12 @@ section {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 8px;
-  padding: 12px 12px 12px 12px;
   margin: 12px 12px 100px 12px;
 }
 
 .gallery-item {
   width: 100%;
-  height: 100%;
+  height: auto;
   transition: all 0.2s ease-in-out;
 }
 
@@ -997,14 +996,6 @@ section {
     grid-template-columns: 1fr 1fr;
   }
   /* ---------------------- INDEX - BLOGS SECTION ---------------------- */
-  .youtube-content-container .video-container {
-    flex-direction: column;
-    height: auto;
-  }
-  .youtube-content-container .video-container .video {
-    margin: 20px;
-    width: 70vw;
-  }
   .blogs {
     grid-template-columns: 1fr 1fr;
   }
@@ -1047,6 +1038,14 @@ section {
     padding: 3.5rem 1rem 5rem 1rem;
   }
   /* ---------------------- INDEX - BLOGS SECTION ---------------------- */
+  .youtube-content-container .video-container {
+    flex-direction: column;
+    height: auto;
+  }
+  .youtube-content-container .video-container .video {
+    margin: 20px;
+    width: 70vw;
+  }
   .gallery {
     display: grid;
     position: relative;
@@ -1113,7 +1112,7 @@ section {
     padding: 0;
   }
   .section {
-    padding: 2rem 2.5rem;
+    padding: 2rem 1.5rem;
   }
   .header-content {
     grid-template-columns: 1fr;
@@ -1184,10 +1183,14 @@ section {
   /* ---------------------- INDEX - CONTACT SECTION ---------------------- */
   .contact-content-container {
     flex-direction: column;
+    padding: 1rem 0.5rem;
   }
   .contact-content-container .right-contact {
     margin-left: 0;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  .contact-content-container .contact-item {
+    font-size: 0.8rem;
   }
   .contact-content-container .right-contact .input-control-2 {
     flex-direction: column;
