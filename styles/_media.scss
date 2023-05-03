@@ -138,7 +138,7 @@
   
     /* ---------------------- GLOBAL - GENERAL CONFIGURATIONS ---------------------- */
         .section {
-            padding: 4rem 2rem;
+            padding: 4rem 4rem;
         }    
     
         .header-content .right-header {
@@ -159,11 +159,88 @@
             grid-template-columns: 1fr;
             padding-bottom: 6rem;
         }
+
+        .gallery {
+            display: grid;
+            position: relative;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(7, 1fr);
+            grid-gap: 8px;
+            height: auto;
+            margin: 0;
+            // padding: 12px 12px 12px 12px;
+            // margin: 12px 12px 100px 12px;
+          }
+          
+          .gallery-item {
+            width: 100%;
+            height: 75%;
+            transition: all 0.2s ease-in-out;
+            border-radius: 50%;
+
+          }
+          
+          .gallery-item:hover {
+            position: relative;
+            transform: scale(1.05);
+          }
+          
+          .gallery-item img {
+            width: 100%;
+            object-fit:cover;
+            
+          }
+          
+        //   Armenia
+          .gallery-item1 {
+            grid-column: 1/3;
+            grid-row: 1/2;
+          }
+          
+        //   Still Baai Crazy
+          .gallery-item2 {
+            grid-column: 1/3;
+            grid-row: 5/6;
+          }
+          
+        //   Aastha
+          .gallery-item3 {
+            grid-column: 2/3;
+            grid-row: 6/8;
+          }
+
+        //   Ria-Henry-Taj
+          .gallery-item4 {
+            grid-column: 1/2;
+            grid-row: 6/8;
+          }
+
+        //   Table Mountain 
+          .gallery-item5 {
+            grid-column: 1/3;
+            grid-row: 2/3;
+          }
+          
+        // Qutub 
+          .gallery-item6 {
+            grid-column: 1/3;
+            grid-row: 3/4;
+          }
+          
+        //   Still Baai Nice
+          .gallery-item7 {
+            grid-column: 1/3;
+            grid-row: 4/5;
+          }
   
     }
   
   /* -------------------------------------------- 600px Break-Point -------------------------------------------- */
   @media screen and (max-width: 600px){
+
+    body {
+        font-size: .9rem;
+    }
   
   
   /* ---------------------- INDEX - HEADER SECTION ---------------------- */
@@ -203,8 +280,6 @@
                 height: 100%;
             }
         }
-
-
             
     }
   
@@ -265,6 +340,13 @@
         }
     }
     
+  /* ---------------------- INDEX - BLOGS SECTION ---------------------- */
+
+    .personal-info{
+        grid-template-columns: 1fr;
+        padding-bottom: 2rem;
+    }
+
   
   /* ---------------------- INDEX - CONTACT SECTION ---------------------- */
   
