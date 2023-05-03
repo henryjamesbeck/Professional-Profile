@@ -66,7 +66,7 @@
         .header-content {
 
             .right-header {
-                padding: 0 2rem 0 0;
+                padding: 0 1rem 0 0;
             }
         }
         header {
@@ -74,7 +74,7 @@
         }
   
         .section {
-            padding: 7rem 7rem;
+            padding: 7rem 4rem;
         }
         
     /* ---------------------- INDEX - ABOUT ME SECTION ---------------------- */
@@ -86,18 +86,25 @@
                 padding-top: 2.5rem;
             }
         }
+
+        .timeline {
+            grid-template-columns: 1fr;
+            padding-bottom: 8rem;
+        }
     
-    /* ---------------------- INDEX - ABOUT ME SECTION ---------------------- */
+    /* ---------------------- INDEX - PORTFOLIO SECTION ---------------------- */
     
         .portfolio-container {
             grid-template-columns: 1fr 1fr;
         }
     
-    /* ---------------------- INDEX - ABOUT ME SECTION ---------------------- */
+    /* ---------------------- INDEX - BLOGS SECTION ---------------------- */
     
         .blogs {
             grid-template-columns: 1fr 1fr;
         }
+
+
     
     /* ---------------------- WEBSITE - CONTROLS ---------------------- */
     
@@ -135,7 +142,7 @@
         }    
     
         .header-content .right-header {
-            padding: 0 2rem 0 0;
+            padding: 0 2rem 4rem 0;
         }
     
     /* ---------------------- INDEX - PORTFOLIO SECTION ---------------------- */
@@ -176,14 +183,29 @@
     .header-content {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
+
     }
-  
+
     .right-header {
         grid-row: 1;
         width: 90%;
         margin: 0 auto;
-  
-        
+    }
+
+    .header-content .left-header {
+        margin: 20px;
+        height: 120%;
+
+        .image {
+            height: 100%;
+
+            img {
+                height: 100%;
+            }
+        }
+
+
+            
     }
   
     .name {
@@ -233,7 +255,7 @@
   
     .timeline {
         grid-template-columns: 1fr;
-        padding-bottom: 6rem;
+        padding-bottom: 8rem;
     }
   
     .about-stats {
