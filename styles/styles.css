@@ -312,7 +312,7 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 6rem;
   letter-spacing: 0.5rem;
   text-align: center;
 }
@@ -1153,7 +1153,7 @@ section {
     font-size: 2rem;
   }
   .main-title h2 .bg-text {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   /* ---------------------- INDEX - ABOUT ME SECTION ---------------------- */
   .about-container {
