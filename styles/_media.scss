@@ -12,6 +12,8 @@
             .right-header {
                 padding: 0 4rem 0 0;
             }
+
+
         }
     
         .section {
@@ -107,7 +109,7 @@
 
             .video {
                 margin: 20px;
-                width: 50%;
+                width: 50vw;
             }
         }
 
@@ -278,7 +280,7 @@
         margin: 0 auto;
     }
 
-    .header-content .left-header {
+    .section .header-content .left-header {
         margin: 20px;
         height: 120%;
 
@@ -288,6 +290,11 @@
             img {
                 height: 100%;
             }
+        }
+
+        .h-shape {
+            width: 100%;
+            clip-path: polygon(0 0, 43% 45%, 43% 30%, 100% 4%, 100% 27%, 75% 50%, 100% 64%, 100% 84%, 0 100%, 0 84%, 39% 72%, 0 37%);
         }
             
     }
